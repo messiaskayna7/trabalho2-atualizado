@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos preparatórios</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <header>
+
+        <h1 class="topo">Cursos preparatorios</h1>
+        <a href="#" class="open" onclick="abrirMenu()">&#9776;</a>
+
+    </header>
+
+    <nav id="menu">
+        <a href="#" onclick="fecharMenu()">&times;</a>
+        <a href="curso.html">Design</a>
+        <a href="curso2.html">Desenvolvimento Web</a>
+        <a href="curso3.html">Marketing Digital</a>
+    </nav>
+
+    <div class="container" id="conteudo">
+        <h2>Apresentando a TechEducação: Expandindo Horizontes Digitais</h2>
+        <p>Na era da informação, a TechEducação surge como um farol de conhecimento, iluminando o caminho para o sucesso
+            na
+            revolução tecnológica. Somos uma empresa apaixonada por tecnologia, dedicada a capacitar indivíduos e
+            organizações a prosperarem no mundo digital em constante evolução.</p>
+
+        <h2>Quem Somos:</h2>
+        <p>A TechEducação é mais do que apenas uma empresa de cursos de tecnologia; somos uma comunidade de aprendizes e
+            inovadores comprometidos em proporcionar uma educação de alta qualidade e prática. Nossa equipe é composta
+            por
+            especialistas experientes em diversas áreas da tecnologia, prontos para compartilhar seu conhecimento e
+            experiência com você.</p>
+
+        <h2>Nossa Missão:</h2>
+        <p>Nossa missão é simples: capacitar pessoas e empresas a dominar a tecnologia e a transformar suas vidas e
+            operações de
+            negócios. Acreditamos que a educação é a chave para o progresso, e é por isso que dedicamos nosso tempo e
+            recursos para
+            fornecer cursos acessíveis, relevantes e de alta qualidade.</p>
+
+        <h2>O Que Oferecemos:</h2>
+        <p>Na TechEducação, oferecemos uma ampla gama de cursos de tecnologia que abrangem desde programação e
+            desenvolvimento web
+            até inteligência artificial e análise de dados. Nossos cursos são ministrados por instrutores experientes, e
+            nossa
+            abordagem de ensino é prática e orientada para resultados. Isso significa que você não apenas aprenderá
+            teoria, mas
+            também desenvolverá habilidades práticas que podem ser aplicadas imediatamente em projetos do mundo real.
+        </p>
+
+        <h2>Nossos serviços incluem:</h2>
+        <ul>
+            <li>Design</li>
+            <li>Desenvolvimento Web</li>
+            <li>Marketing Digital</li>
+        </ul>
+
+        <h2>Por Que Escolher a TechEducação:</h2>
+        <ul>
+            <li>Experiência Comprovada: Com anos de experiência no setor, a TechEducação já ajudou milhares de alunos a
+                alcançarem seus objetivos tecnológicos.</li>
+            <li>Instrutores Especializados: Nossos instrutores são especialistas em suas áreas, garantindo que você
+                esteja recebendo o melhor treinamento possível.</li>
+            <li>Aprendizado Flexível: Oferecemos uma variedade de formatos de curso, incluindo presencial, online e sob
+                demanda, para atender às suas necessidades de aprendizado.</li>
+            <li>Suporte Contínuo: Nossa equipe de suporte está disponível para ajudá-lo em sua jornada de aprendizado,
+                fornecendo assistência sempre que necessário.</li>
+            <li>Certificação Reconhecida: Nossos certificados são amplamente reconhecidos na indústria, aumentando suas
+                perspectivas de carreira.</li>
+        </ul>
+
+        <h2>Junte-se a Nós na Jornada Digital:</h2>
+        <p>Se você está buscando adquirir novas habilidades, avançar em sua carreira ou preparar sua empresa para o
+            futuro digital,
+            a TechEducação é o seu parceiro confiável nessa jornada. Convidamos você a explorar nossa gama de cursos de
+            tecnologia e
+            a se juntar à nossa comunidade de aprendizado. Vamos construir um futuro digital brilhante juntos. Seu
+            sucesso começa
+            aqui, na TechEducação.</p>
+
+        <h2>Contato</h2>
+        <p>Você pode nos contatar em:</p>
+        <p>Email: contato@meusite.com</p>
+        <p>Telefone: (55) 81 95456-7890</p>
+    </div>
+
+    <script>
+        function abrirMenu() {
+            document.getElementById('menu').style.width='250px';
+            document.getElementById('conteudo').style.marginLeft='250px';
+        }
+        
+        function fecharMenu(){
+            document.getElementById('menu').style.width='0px';
+            document.getElementById('conteudo').style.marginLeft='250px';
+        }
+    </script>
+
+</body>
+
+</html>
